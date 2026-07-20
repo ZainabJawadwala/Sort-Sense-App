@@ -1,0 +1,8 @@
+- [ ] Upgrade `BacktrackingVisualizer.java` for advanced rendering
+- [ ] Implement `RatInAMazeAlgorithm.java`
+- [ ] Implement `PermutationAlgorithm.java`
+- [ ] Implement `MazeSolverAlgorithm.java`
+- [ ] Update `fragment_backtracking_visualizer.xml` UI
+- [ ] Update `BacktrackingVisualizerFragment.java` logic
+- [ ] Populate `BacktrackingTheoryFragment.java`
+- [ ] Final Verification

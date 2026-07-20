@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Path Finding Learning Section"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- 1. What is Path Finding? -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. What is Path Finding?"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Path finding is the process of finding a route from a starting point to a destination while avoiding obstacles. It helps determine the best or shortest path in a graph or grid."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 2. Why is it Important? -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Why is Path Finding Important?"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Path finding is important because it helps find efficient routes, saves time and resources, avoids obstacles, and improves navigation. It is widely used in maps, games, robots, and computer networks."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 3. Key Concepts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Key Concepts"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nNode" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A node is a point or location in a graph where movement can begin, end, or pass through." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nEdge" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="An edge is a connection between two nodes that represents a possible path." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nPath" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A path is the route followed to travel from the start node to the destination node." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nGraph" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A graph is a collection of nodes connected by edges." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nObstacle" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="An obstacle is a blocked area that cannot be crossed while finding a path." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nStart Node" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The start node is the point where the path-finding process begins." android:textColor="#424242"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="\nEnd Node" android:textStyle="bold" android:textColor="#2196F3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The end node is the destination that needs to be reached." android:textColor="#424242"/>
+        </LinearLayout>
+
+        <!-- 4. How Path Finding Works -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How Path Finding Works"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="• The algorithm starts from the Start Node (S).\n• It checks all possible neighboring nodes.\n• It avoids blocked cells or obstacles.\n• It continues exploring until the End Node (E) is found.\n• Once the destination is reached, the final path is displayed."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Diagram Representation:" android:textStyle="bold" android:textColor="#424242"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_path_finding_grid"
+                android:contentDescription="Path finding grid diagram"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Example Path:\nS → ↓ → ↓ → → ↑ → → ↓ → E" android:gravity="center" android:textColor="#3F51B5"/>
+        </LinearLayout>
+
+        <!-- 5. Advantages -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advantages"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="• Finds the shortest or most efficient path.\n• Saves time and travel cost.\n• Avoids obstacles automatically.\n• Improves navigation accuracy.\n• Widely used in many real-world applications."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 6. Disadvantages -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disadvantages"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="• Can be slow for very large maps or graphs.\n• Requires additional memory.\n• Complex algorithms may consume more processing power.\n• Performance decreases as the graph size increases."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 7. Real-World Applications -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Real-World Applications"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="• Google Maps &amp; GPS Navigation – Finds the fastest route.\n• Video Games – Moves characters to targets.\n• Robotics – Helps robots navigate safely.\n• Network Routing – Transfers data through the best path.\n• Autonomous Vehicles – Plans safe driving routes.\n• Warehouse Automation – Guides robots to deliver goods.\n• Drone Navigation – Finds safe flight paths."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- 8. Common Terms -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Terms Used in Path Finding"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:stretchColumns="1">
+                <TableRow android:background="#EEEEEE" android:padding="4dp">
+                    <TextView android:text="Term" android:textStyle="bold" android:padding="4dp" android:textColor="#212121"/>
+                    <TextView android:text="Meaning" android:textStyle="bold" android:padding="4dp" android:textColor="#212121"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Node" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="A point in a graph" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Edge" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Connection between two nodes" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Graph" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Collection of nodes and edges" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Path" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Route from start to destination" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Start Node" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Beginning point" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="End Node" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Destination point" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Obstacle" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Blocked area" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Neighbor" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Adjacent node" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Grid" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Arrangement of cells" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+                <TableRow android:padding="4dp">
+                    <TextView android:text="Shortest Path" android:padding="4dp" android:textColor="#424242"/>
+                    <TextView android:text="Minimum-distance route" android:padding="4dp" android:textColor="#424242"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <!-- 9. Summary -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summary"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Path finding is the process of finding the best route between a start and an end point. It works by exploring possible paths while avoiding obstacles. It is an essential concept used in navigation systems, games, robotics, and networking to improve efficiency, save time, and ensure accurate movement."
+                android:textColor="#424242"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

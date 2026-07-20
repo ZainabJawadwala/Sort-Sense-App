@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 4x4 Chessboard -->
+    <path android:fillColor="#EEEEEE" android:pathData="M0,0h50v50h-50z M100,0h50v50h-50z M50,50h50v50h-50z M150,50h50v50h-50z M0,100h50v50h-50z M100,100h50v50h-50z M50,150h50v50h-50z M150,150h50v50h-50z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M50,0h50v50h-50z M150,0h50v50h-50z M0,50h50v50h-50z M100,50h50v50h-50z M50,100h50v50h-50z M150,100h50v50h-50z M0,150h50v50h-50z M100,150h50v50h-50z" />
+
+    <!-- Queens -->
+    <path android:fillColor="#3F51B5" android:pathData="M75,25m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0z M25,75m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0z M175,125m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0z M125,175m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0z" />
+</vector>

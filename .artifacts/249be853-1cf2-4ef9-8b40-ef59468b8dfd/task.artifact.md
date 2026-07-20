@@ -1,0 +1,14 @@
+- [x] Update `gradle.properties`
+    - [x] Update URLs to HTTPS
+    - [x] Fix typo in comment
+    - [x] Disable/Remove Jetifier
+    - [x] Add performance properties
+- [x] Update `app/build.gradle`
+    - [x] Add `namespace`
+- [x] Fix critical build issues
+    - [x] Add placeholder `google-services.json`
+    - [x] Fix `android:exported` in manifest
+    - [x] Convert `switch` statements to `if-else` for non-final R IDs
+- [x] Build successfully
+    - [x] Run Build `:app:assembleDebug`
+

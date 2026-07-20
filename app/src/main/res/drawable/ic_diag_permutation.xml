@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="160dp"
+    android:viewportWidth="200"
+    android:viewportHeight="160">
+    <!-- Recursion Tree Root -->
+    <path android:fillColor="#3F51B5" android:pathData="M80,10h40v30h-40z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M85,30h30v-10h-30z" />
+
+    <!-- Level 1 Connectors -->
+    <path android:strokeColor="#BDBDBD" android:strokeWidth="2" android:pathData="M100,40 L60,70 M100,40 L140,70" />
+
+    <!-- Level 1 Nodes -->
+    <path android:fillColor="#5C6BC0" android:pathData="M40,70h40v30h-40z M120,70h40v30h-40z" />
+
+    <!-- Level 2 Connectors -->
+    <path android:strokeColor="#BDBDBD" android:strokeWidth="2" android:pathData="M60,100 L40,130 M60,100 L80,130 M140,100 L120,130 M140,100 L160,130" />
+
+    <!-- Level 2 Nodes -->
+    <path android:fillColor="#7986CB" android:pathData="M25,130h30v25h-30z M65,130h30v25h-30z M105,130h30v25h-30z M145,130h30v25h-30z" />
+</vector>

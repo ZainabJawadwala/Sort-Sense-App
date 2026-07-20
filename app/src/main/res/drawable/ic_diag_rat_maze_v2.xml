@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Outer Border -->
+    <path android:strokeColor="#424242" android:strokeWidth="4" android:pathData="M2,2h196v196h-196z" />
+
+    <!-- Maze Grid (Cells) -->
+    <path android:fillColor="#EEEEEE" android:pathData="M4,4h48v48h-48z M100,4h48v48h-48z M148,4h48v48h-48z M52,52h48v48h-48z M4,100h48v48h-48z M100,100h48v48h-48z M52,148h48v48h-48z M148,148h48v48h-48z" />
+
+    <!-- Walls (Darker) -->
+    <path android:fillColor="#616161" android:pathData="M52,4h48v48h-48z M4,52h48v48h-48z M100,52h48v48h-48z M148,52h48v48h-48z M52,100h48v48h-48z M148,100h48v48h-48z M4,148h48v48h-48z M100,148h48v48h-48z" />
+
+    <!-- Path Line (Clearer Yellow) -->
+    <path android:strokeColor="#FDD835" android:strokeWidth="10" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M28,28 L28,76 L76,76 L124,76 L124,124 L172,124 L172,172" />
+
+    <!-- Rat / Goal Icon -->
+    <path android:fillColor="#FF9800" android:pathData="M28,28m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0z" />
+    <path android:fillColor="#4CAF50" android:pathData="M172,172m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0z" />
+</vector>

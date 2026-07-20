@@ -1,0 +1,8 @@
+- [ ] Update `SortingVisualizer.java` (Colors, Bar Width, Bottom-up)
+- [ ] Refactor `SortingAlgorithm.java` (Running state, Stop control)
+- [ ] Update all algorithm logic (Bubble, Selection, Insertion, Quick, Merge, Linear, Binary) to support Stop
+- [ ] Create unified `activity_visualizer.xml` UI
+- [ ] Implement `VisualizerActivity.java`
+- [ ] Refactor `MainActivity` and `activity_main.xml` (Algorithm list only)
+- [ ] Delete extra/social features (Doubt solver, Posts, Comments, Old activities)
+- [ ] Clear errors and verify build
